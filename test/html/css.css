@@ -1,0 +1,65 @@
+.header_group{
+    -moz-border-radius-topleft:8px;
+    -moz-border-radius-topright:8px;
+    -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color:#D5E1E8;
+    font-weight:bold;
+    padding:10px;
+    margin:10px 10px 0px 10px;
+    border-bottom-color:#84B0C7;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-left-color-ltr-source:physical;
+    border-left-color-rtl-source:physical;
+    border-left-color-value:#84B0C7;
+    border-left-style-ltr-source:physical;
+    border-left-style-rtl-source:physical;
+    border-left-style-value:solid;
+    border-left-width-ltr-source:physical;
+    border-left-width-rtl-source:physical;
+    border-left-width-value:1px;
+    border-right-color-ltr-source:physical;
+    border-right-color-rtl-source:physical;
+    border-right-color-value:#84B0C7;
+    border-right-style-ltr-source:physical;
+    border-right-style-rtl-source:physical;
+    border-right-style-value:solid;
+    border-right-width-ltr-source:physical;
+    border-right-width-rtl-source:physical;
+    border-right-width-value:1px;
+    border-top-color:#84B0C7;
+    border-top-style:solid;
+    border-top-width:1px;
+}
+
+.footer_group {
+    -moz-border-radius-bottomleft:8px;
+    -moz-border-radius-bottomright:8px;
+    -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.15);
+    padding:10px;
+    margin:0px 10px 10px 10px;
+    border-bottom-color:#84B0C7;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-left-color-ltr-source:physical;
+    border-left-color-rtl-source:physical;
+    border-left-color-value:#84B0C7;
+    border-left-style-ltr-source:physical;
+    border-left-style-rtl-source:physical;
+    border-left-style-value:solid;
+    border-left-width-ltr-source:physical;
+    border-left-width-rtl-source:physical;
+    border-left-width-value:1px;
+    border-right-color-ltr-source:physical;
+    border-right-color-rtl-source:physical;
+    border-right-color-value:#84B0C7;
+    border-right-style-ltr-source:physical;
+    border-right-style-rtl-source:physical;
+    border-right-style-value:solid;
+    border-right-width-ltr-source:physical;
+    border-right-width-rtl-source:physical;
+    border-right-width-value:1px;
+    border-top-color:#84B0C7;
+    border-top-style:solid;
+    border-top-width:1px;
+}

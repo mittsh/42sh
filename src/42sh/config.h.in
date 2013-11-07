@@ -1,0 +1,11 @@
+#ifndef CONFIG_H_
+# define CONFIG_H_
+
+/**
+** @brief               Changes for compatibility with Linux
+**                      (Fedora and Ubuntu) and BSD Darwin (Mac OSX).
+*/
+#cmakedefine HAVE_FGETLN 1
+#cmakedefine HAVE_GETLINE 1
+
+#endif /* !CONFIG_H_ */

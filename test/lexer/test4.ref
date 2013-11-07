@@ -1,0 +1,5 @@
+42sh LEXER DEBUGER
+  > Input : >>echo '42sh is strong';<<
+  >>Token		Other token		>>echo<<
+   -Token		Other token		>>'42sh is strong'<< (after space)
+   -Token		Token EOF ;		>>;<< (after space)

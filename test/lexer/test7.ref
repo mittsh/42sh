@@ -1,0 +1,5 @@
+42sh LEXER DEBUGER
+  > Input : >>echo "a test to check $variables in a quoted ${string}";<<
+  >>Token		Other token		>>echo<<
+   -Token		Other token		>>"a test to check $variables in a quoted ${string}"<< (after space)
+   -Token		Token EOF ;		>>;<< (after space)

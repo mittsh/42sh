@@ -1,0 +1,115 @@
+*******************************************************************************
+*******************************************************************************
+*******************************************************************************
+**********************				       ************************
+**********************	     Welcome to the 42sh       ************************
+**********************	   	       		       ************************
+*******************************************************************************
+*******************************************************************************
+*******************************************************************************
+
+
+                  __    __   ______          ______   __    __
+                 /  |  /  | /      \        /      \ /  |  /  |
+                 $$ |  $$ |/$$$$$$  |      /$$$$$$  |$$ |  $$ |
+                 $$ |__$$ |$$____$$ |      $$ \__$$/ $$ |__$$ |
+                 $$    $$ | /    $$/       $$      \ $$    $$ |
+                 $$$$$$$$ |/$$$$$$/         $$$$$$  |$$$$$$$$ |
+                       $$ |$$ |_____       /  \__$$ |$$ |  $$ |
+                       $$ |$$       |      $$    $$/ $$ |  $$ |
+                       $$/ $$$$$$$$/        $$$$$$/  $$/   $$/
+
+
+
+                             General Informations :
+-------------------------------------------------------------------------------
+
+        Project "42SH"
+        29 October, 2010 - 28 November, 2010
+        EPITA PROMO 2013
+        ING 1 SEMESTER 1
+        JURY 1 : Julien Birene
+
+
+	      	             Authors :
+-------------------------------------------------------------------------------
+
+	Maarek Joseph           < maarek_j@epita.fr >
+	Adolphi-Cazalon Melanie < adolph_a@epita.fr >
+	Karsenty Joseph         < karsen_j@epita.fr >
+	Lanoe Jean-Christophe   <  lanoe_j@epita.fr >
+	Mazaheri Micha          < mazahe_m@epita.fr >
+
+
+                             Project's Description :
+-------------------------------------------------------------------------------
+
+                The project "42sh" is a important project for EPITA students.
+                It uses all notions which we had learned in the C language and
+        concludes the "C/UNIX period" in EPITA.
+                Its a project for four students who must try to work together
+        during about five weeks.
+                The goal of this project is to develop a mini-shell. We learn
+        new languages and new technologies.
+
+
+
+			     How to read the 42sh Man :
+-------------------------------------------------------------------------------
+
+	To Check the Man of 42sh please type
+	groff -man -Tascii doc/42sh.man | most
+
+        The 42sh Man countains a description of our shell,
+        separates in differents topics :
+
+                  NAME
+                  SYNOPSIS
+                  DESCRIPTION
+                  OPTIONS
+                  INVOCATION
+                  DEFINITIONS
+                  RESERVED WORDS
+                  SHELL GRAMMAR
+                  COMMENTS
+                  QUOTING
+                  PARAMETERS
+                  EXPANSION
+                  REDIRECTION
+                  ARITHMETIC EVALUATION
+                  SIMPLE COMMAND EXPANSION
+                  COMMAND EXECUTION
+                  COMMAND EXECUTION ENVIRONMENT
+                  ENVIRONMENT
+                  EXIT STATUS
+                  PROMPTING
+                  READLINE
+                  HISTORY
+                  SHELL BUILTIN COMMANDS
+                  SEE ALSO
+                  FILES
+                  AUTHORS
+                  BUG REPORTS
+
+
+			     How to compile and execute the project 42sh :
+------------------------------------------------------------------------------
+
+	To compile the project, please type
+        ./configure && make
+
+        To execute the project, please type
+        ./42sh
+
+        To quit the project, please write
+        exit
+
+
+
+			     How to read the documentation :
+------------------------------------------------------------------------------
+
+        To read the documentation, please type
+        ./configure && make doc
+        firefox doc/html/index.html &
+

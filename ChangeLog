@@ -1,0 +1,991 @@
+------------------------------------------------------------------------
+r175 | mazahe_m | 2010-11-28 19:31:02 +0100 (dim. 28 nov. 2010) | 2 lignes
+
+        * Changed NORM FIX
+
+------------------------------------------------------------------------
+r174 | mazahe_m | 2010-11-28 19:20:22 +0100 (dim. 28 nov. 2010) | 3 lignes
+
+        * Added masso_unlink
+        * Changed builtin alias now works (only masso_unlink makes that)
+
+------------------------------------------------------------------------
+r173 | adolph_a | 2010-11-28 19:11:58 +0100 (dim. 28 nov. 2010) | 2 lignes
+
+        * [UPDATE] Really nice man.
+
+------------------------------------------------------------------------
+r172 | mazahe_m | 2010-11-28 19:02:10 +0100 (dim. 28 nov. 2010) | 2 lignes
+
+        * Changed : getpwuid is changed to getpwuir_r
+
+------------------------------------------------------------------------
+r171 | mazahe_m | 2010-11-28 18:39:58 +0100 (dim. 28 nov. 2010) | 2 lignes
+
+        * Changed lib mstream
+
+------------------------------------------------------------------------
+r170 | mazahe_m | 2010-11-28 17:26:51 +0100 (dim. 28 nov. 2010) | 2 lignes
+
+        * Changed ! Sorry forgot to add a directory
+
+------------------------------------------------------------------------
+r169 | mazahe_m | 2010-11-28 17:22:40 +0100 (dim. 28 nov. 2010) | 2 lignes
+
+        * Added mstream, a stream/file descriptor managment library
+
+------------------------------------------------------------------------
+r168 | mazahe_m | 2010-11-28 13:08:08 +0100 (dim. 28 nov. 2010) | 4 lignes
+
+        * Changed : library mmalloc is now very faster, free complexity was O(n) is now O(1)
+        * Changed : variable expansion is only for non empty names, for exemple $ is not expanded
+          $d is expanded
+
+------------------------------------------------------------------------
+r167 | maarek_j | 2010-11-28 02:44:23 +0100 (dim. 28 nov. 2010) | 3 lignes
+
+        * Add : Alias is OK
+        * Add : Unalias is OK is masso_unlink.
+
+------------------------------------------------------------------------
+r166 | mazahe_m | 2010-11-27 18:38:42 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Changed norm fix
+
+------------------------------------------------------------------------
+r165 | mazahe_m | 2010-11-27 18:34:32 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Changed tests to work with mmalloc
+
+------------------------------------------------------------------------
+r164 | lanoe_j | 2010-11-27 18:26:10 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Fixed prompt coloration bug.
+
+------------------------------------------------------------------------
+r163 | mazahe_m | 2010-11-27 18:09:54 +0100 (sam. 27 nov. 2010) | 3 lignes
+
+        * Changed test libraries : now using mmalloc library
+        * Changed some errors and adding mmalloc_free in free_shell
+
+------------------------------------------------------------------------
+r162 | lanoe_j | 2010-11-27 17:56:19 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Added a begining of PS1 color handling.
+
+------------------------------------------------------------------------
+r161 | mazahe_m | 2010-11-27 17:38:06 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Changed some mfree missing : leaks resolved
+
+------------------------------------------------------------------------
+r160 | mazahe_m | 2010-11-27 17:34:04 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Changed lexer also uses mmalloc library
+
+------------------------------------------------------------------------
+r159 | mazahe_m | 2010-11-27 17:30:06 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Changed a lot of function using now mmalloc memory managment library
+
+------------------------------------------------------------------------
+r158 | mazahe_m | 2010-11-27 16:23:44 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Adding mmalloc_debug
+
+------------------------------------------------------------------------
+r157 | lanoe_j | 2010-11-27 16:16:02 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * PS1 \nnn bug fixed.
+
+------------------------------------------------------------------------
+r156 | mazahe_m | 2010-11-27 15:53:59 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Added library mmalloc : a memory managment library
+
+------------------------------------------------------------------------
+r155 | mazahe_m | 2010-11-27 14:32:53 +0100 (sam. 27 nov. 2010) | 2 lignes
+
+        * Changed norm fix according to norm check 0.8
+
+------------------------------------------------------------------------
+r154 | mazahe_m | 2010-11-26 23:08:42 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Changed norm fix according to dementor 0.5
+
+------------------------------------------------------------------------
+r153 | lanoe_j | 2010-11-26 22:00:03 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Really deleted the sandbox folder now.
+
+------------------------------------------------------------------------
+r152 | lanoe_j | 2010-11-26 21:58:03 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Deleted the Sandbox folder.
+
+------------------------------------------------------------------------
+r151 | maarek_j | 2010-11-26 13:53:43 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * FIX leaks.
+
+------------------------------------------------------------------------
+r150 | mazahe_m | 2010-11-26 13:35:45 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Changed some leaks fixed in readline interactive
+
+------------------------------------------------------------------------
+r149 | mazahe_m | 2010-11-26 11:17:25 +0100 (ven. 26 nov. 2010) | 3 lignes
+
+        * Changed : no more memory leak without parsing error
+          and without readline.
+
+------------------------------------------------------------------------
+r148 | lanoe_j | 2010-11-26 09:25:08 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Fixed and finished \nnn PS1 escape value.
+
+------------------------------------------------------------------------
+r147 | maarek_j | 2010-11-26 08:28:34 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * ADD Test suite.
+
+------------------------------------------------------------------------
+r146 | mazahe_m | 2010-11-26 08:25:19 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Changed only 2 leaks remains
+
+------------------------------------------------------------------------
+r145 | mazahe_m | 2010-11-26 08:05:21 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Changed memory leaks check : no error found, no unreachable leak
+
+------------------------------------------------------------------------
+r144 | mazahe_m | 2010-11-26 07:32:44 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Changed history load norm fix
+
+------------------------------------------------------------------------
+r143 | lanoe_j | 2010-11-26 06:11:39 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Fixed PS1 Parser.
+
+------------------------------------------------------------------------
+r142 | mazahe_m | 2010-11-26 06:02:24 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Changed check/ is renamed to test/
+
+------------------------------------------------------------------------
+r141 | lanoe_j | 2010-11-26 04:54:27 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Fixed advanced prompt return line.
+
+------------------------------------------------------------------------
+r140 | lanoe_j | 2010-11-26 04:45:07 +0100 (ven. 26 nov. 2010) | 3 lignes
+
+        * Advanced Prompt Done.
+          -> Missing \nnn and \[ \].
+
+------------------------------------------------------------------------
+r139 | mazahe_m | 2010-11-26 04:36:59 +0100 (ven. 26 nov. 2010) | 2 lignes
+
+        * Changed fix a bug in main.c return value
+
+------------------------------------------------------------------------
+r138 | maarek_j | 2010-11-26 04:01:50 +0100 (ven. 26 nov. 2010) | 4 lignes
+
+        * FIX norme.
+        * FIX 2 leaks.
+        * TODO fix more than atoms in the univers leaks.
+
+------------------------------------------------------------------------
+r137 | mazahe_m | 2010-11-26 03:58:17 +0100 (ven. 26 nov. 2010) | 5 lignes
+
+        * Added execution of brackets {...}
+        * Changed some features of check moulinette
+        * Added diff in the moulinette
+        * Added lexer tests and begin execution tests
+
+------------------------------------------------------------------------
+r136 | mazahe_m | 2010-11-25 23:30:20 +0100 (jeu. 25 nov. 2010) | 2 lignes
+
+        * Changed : norm fix
+
+------------------------------------------------------------------------
+r135 | maarek_j | 2010-11-25 23:28:24 +0100 (jeu. 25 nov. 2010) | 2 lignes
+
+        * FIX norme in ast
+
+------------------------------------------------------------------------
+r134 | maarek_j | 2010-11-25 22:25:21 +0100 (jeu. 25 nov. 2010) | 2 lignes
+
+        * FIX norme.
+
+------------------------------------------------------------------------
+r133 | mazahe_m | 2010-11-25 20:46:32 +0100 (jeu. 25 nov. 2010) | 2 lignes
+
+        * Added redirections >, >> and <
+
+------------------------------------------------------------------------
+r132 | maarek_j | 2010-11-25 20:44:43 +0100 (jeu. 25 nov. 2010) | 4 lignes
+
+        * FIX norme +
+        * OPTIM : Changed parsing complexity from n^2 to n !!
+        * FIX : Execution from file is OK
+
+------------------------------------------------------------------------
+r131 | mazahe_m | 2010-11-25 17:39:45 +0100 (jeu. 25 nov. 2010) | 2 lignes
+
+        * Changed managing multiple command in one file
+
+------------------------------------------------------------------------
+r130 | karsen_j | 2010-11-25 15:36:04 +0100 (jeu. 25 nov. 2010) | 2 lignes
+
+change function
+
+------------------------------------------------------------------------
+r129 | maarek_j | 2010-11-25 14:24:40 +0100 (jeu. 25 nov. 2010) | 2 lignes
+
+        * FIX bug in builtin echo (-- isn't end option).
+
+------------------------------------------------------------------------
+r128 | mazahe_m | 2010-11-25 13:02:46 +0100 (jeu. 25 nov. 2010) | 4 lignes
+
+        * Added tilde expansion
+        * Changed builtin are now piped
+        * Changed redirection execution begins
+
+------------------------------------------------------------------------
+r127 | maarek_j | 2010-11-25 02:10:31 +0100 (jeu. 25 nov. 2010) | 2 lignes
+
+        * Fix compilation to exec.
+
+------------------------------------------------------------------------
+r126 | maarek_j | 2010-11-25 01:31:18 +0100 (jeu. 25 nov. 2010) | 2 lignes
+
+        * Exec function OK.
+
+------------------------------------------------------------------------
+r125 | maarek_j | 2010-11-24 18:50:24 +0100 (mer. 24 nov. 2010) | 2 lignes
+
+        * Create static function to exec_func.
+
+------------------------------------------------------------------------
+r124 | karsen_j | 2010-11-24 16:40:52 +0100 (mer. 24 nov. 2010) | 2 lignes
+
+add function tri
+
+------------------------------------------------------------------------
+r123 | maarek_j | 2010-11-24 15:58:32 +0100 (mer. 24 nov. 2010) | 4 lignes
+
+        * Begining execution of function.
+          * exec_instr_func is OK.
+          * exec_func TODO.
+
+------------------------------------------------------------------------
+r122 | maarek_j | 2010-11-24 03:09:13 +0100 (mer. 24 nov. 2010) | 2 lignes
+
+        * ADD: Builtin echo.
+
+------------------------------------------------------------------------
+r121 | mazahe_m | 2010-11-24 01:48:58 +0100 (mer. 24 nov. 2010) | 7 lignes
+
+        * Changed 42sh can now read script form a file
+        * Changed lexer matches comments like spaces
+        * Changed fixing a variable extension bug (for exemple : "${HOME}'s my home"
+          because ${HOME} is not succedded by space)
+        * Changed lexer matches well not quoted backslashes (for exemple : rm my\ file)
+        * Added builtin export
+
+------------------------------------------------------------------------
+r120 | maarek_j | 2010-11-23 23:28:04 +0100 (mar. 23 nov. 2010) | 4 lignes
+
+        * Management division by zero.
+        * EXEC was MUCH MUCH changed !!.
+        * Comment the file of Alias to compile.
+
+------------------------------------------------------------------------
+r119 | karsen_j | 2010-11-23 18:50:07 +0100 (mar. 23 nov. 2010) | 2 lignes
+
+Builtin alias realesed.
+
+------------------------------------------------------------------------
+r118 | mazahe_m | 2010-11-23 15:19:27 +0100 (mar. 23 nov. 2010) | 3 lignes
+
+        * Added 42sh now read also from piped standard input
+          you can use : echo ls | ./42sh
+
+------------------------------------------------------------------------
+r117 | maarek_j | 2010-11-23 14:08:36 +0100 (mar. 23 nov. 2010) | 3 lignes
+
+        * Begining of eval expr div by 0
+        * FIX histsize and histfilesize
+
+------------------------------------------------------------------------
+r116 | mazahe_m | 2010-11-23 04:42:39 +0100 (mar. 23 nov. 2010) | 12 lignes
+
+        * Changed : lexer matches correctly $((...)) and ${...}
+        * Added : variable expansion with ${...} works
+        * Changed : arithmetic expansion is correctly called, it works
+        * Changed : variable and arithmetic expansion works in a double quoted
+          string
+        * Changed : quoted strings are well expanded ('' is not expanded, "" is
+          expanded)
+        * Changed : environment variables are automatically changed on a simple
+          affectation such as PATH=/bin
+        * Changed : instruction 'for' works, with memory errors due to parser
+        * Changed : readline supports now mandatory Ctrl + ? commands
+
+------------------------------------------------------------------------
+r115 | maarek_j | 2010-11-22 23:27:02 +0100 (lun. 22 nov. 2010) | 4 lignes
+
+        * The functions of history uses variable of environnement,
+          HISTSIZE and HISTFILESIZE.
+        * Added option -M --for-xcode to configure.
+
+------------------------------------------------------------------------
+r114 | mazahe_m | 2010-11-22 19:15:50 +0100 (lun. 22 nov. 2010) | 2 lignes
+
+        * Changed : check moulinette, please note that a / b is not equal to a / (b + 1) !!!
+
+------------------------------------------------------------------------
+r113 | lanoe_j | 2010-11-22 18:58:32 +0100 (lun. 22 nov. 2010) | 2 lignes
+
+        * Added a file to compile the sandbox readline.
+
+------------------------------------------------------------------------
+r112 | mazahe_m | 2010-11-22 18:38:52 +0100 (lun. 22 nov. 2010) | 2 lignes
+
+        * Added : history works, no memory error, to try more
+
+------------------------------------------------------------------------
+r111 | lanoe_j | 2010-11-22 16:15:27 +0100 (lun. 22 nov. 2010) | 2 lignes
+
+        * Resolved conflicts.
+
+------------------------------------------------------------------------
+r110 | maarek_j | 2010-11-22 12:46:33 +0100 (lun. 22 nov. 2010) | 3 lignes
+
+	* Add function to shift history, and to get a current
+	  line int the history.
+
+------------------------------------------------------------------------
+r109 | maarek_j | 2010-11-22 10:44:10 +0100 (lun. 22 nov. 2010) | 3 lignes
+
+	* Correction history to compile in MAC OS.
+	* Add config.h and config.h.in to check if a function exists.
+
+------------------------------------------------------------------------
+r108 | maarek_j | 2010-11-22 02:36:13 +0100 (lun. 22 nov. 2010) | 4 lignes
+
+        * History is begining.
+        * Add function free_shell() to free the global variable.
+        * FIX some leaks.
+
+------------------------------------------------------------------------
+r107 | mazahe_m | 2010-11-21 18:05:09 +0100 (dim. 21 nov. 2010) | 2 lignes
+
+        * Changed builtin cd works
+
+------------------------------------------------------------------------
+r106 | mazahe_m | 2010-11-21 16:14:33 +0100 (dim. 21 nov. 2010) | 2 lignes
+
+        * Added two forgotten files for variable extension
+
+------------------------------------------------------------------------
+r105 | mazahe_m | 2010-11-21 16:12:12 +0100 (dim. 21 nov. 2010) | 2 lignes
+
+        * Added variable expansion
+
+------------------------------------------------------------------------
+r104 | karsen_j | 2010-11-21 14:04:41 +0100 (dim. 21 nov. 2010) | 2 lignes
+
+Add builtin cd
+
+------------------------------------------------------------------------
+r103 | karsen_j | 2010-11-21 14:02:56 +0100 (dim. 21 nov. 2010) | 2 lignes
+
+make the builtin cd
+
+------------------------------------------------------------------------
+r102 | maarek_j | 2010-11-21 04:03:00 +0100 (dim. 21 nov. 2010) | 3 lignes
+
+	* Eval_expr is OK
+	* Eval_expr: no leak, no error.
+
+------------------------------------------------------------------------
+r101 | maarek_j | 2010-11-20 19:49:18 +0100 (sam. 20 nov. 2010) | 2 lignes
+
+	* The names of functions in eval_expr changing for the lexer.
+
+------------------------------------------------------------------------
+r100 | mazahe_m | 2010-11-19 19:06:02 +0100 (ven. 19 nov. 2010) | 4 lignes
+
+        * Changed : linking in CMakeLists.txt to compill also on Fedora (old
+          linking worked only on MacOS X)
+        * Changed : builtin exit to remove a big memory error...
+
+------------------------------------------------------------------------
+r99 | mazahe_m | 2010-11-19 18:45:38 +0100 (ven. 19 nov. 2010) | 3 lignes
+
+        * Added variable declaration.
+        * Added pseudo-builtin 'vars' which list all variables
+
+------------------------------------------------------------------------
+r98 | lanoe_j | 2010-11-19 16:34:00 +0100 (ven. 19 nov. 2010) | 2 lignes
+
+        * Deleted old sandbox structure.
+
+------------------------------------------------------------------------
+r97 | lanoe_j | 2010-11-19 16:32:33 +0100 (ven. 19 nov. 2010) | 2 lignes
+
+        * Reorganized the sandbox.
+
+------------------------------------------------------------------------
+r96 | maarek_j | 2010-11-19 16:14:26 +0100 (ven. 19 nov. 2010) | 3 lignes
+
+	* Eval_expr is OK on + * - / ( ).
+	* Lexer eval expr TODO.
+
+------------------------------------------------------------------------
+r95 | lanoe_j | 2010-11-19 10:56:36 +0100 (ven. 19 nov. 2010) | 1 ligne
+
+        * Fixed norm.
+------------------------------------------------------------------------
+r94 | lanoe_j | 2010-11-19 10:52:27 +0100 (ven. 19 nov. 2010) | 1 ligne
+
+        * Fixed file explainations.
+------------------------------------------------------------------------
+r93 | lanoe_j | 2010-11-19 10:34:24 +0100 (ven. 19 nov. 2010) | 2 lignes
+
+        * Reorganized the Sandbox folder.
+
+------------------------------------------------------------------------
+r92 | lanoe_j | 2010-11-19 10:25:06 +0100 (ven. 19 nov. 2010) | 2 lignes
+
+        * Created a Sandbox folder to develop ideas for upcoming features.
+
+------------------------------------------------------------------------
+r91 | maarek_j | 2010-11-19 02:09:40 +0100 (ven. 19 nov. 2010) | 3 lignes
+
+	* Begining of the eval_expr.
+	* Doxygening of ast.h and parser.h.
+
+------------------------------------------------------------------------
+r90 | mazahe_m | 2010-11-18 18:39:57 +0100 (jeu. 18 nov. 2010) | 4 lignes
+
+        * Changed readline : terminal is saved in g_shell global variable.
+        * Added a global variable : g_shell which manages variables, alias, etc.
+        * Added builtins clear (ok) and exit (frees nothing)
+
+------------------------------------------------------------------------
+r89 | mazahe_m | 2010-11-18 14:27:29 +0100 (jeu. 18 nov. 2010) | 3 lignes
+
+        * Added mstring and masso libraries in order to manage variables.
+        * Changed execution and ast printer header files : doxygen comments added.
+
+------------------------------------------------------------------------
+r88 | maarek_j | 2010-11-17 01:56:44 +0100 (mer. 17 nov. 2010) | 5 lignes
+
+	* Print instruction redirection FIX.
+	* Print instruction if FIX (add label else).
+	* Parsing Redirection OK (not for heredocument).
+	* Parsing for OK.
+
+------------------------------------------------------------------------
+r87 | mazahe_m | 2010-11-17 00:08:23 +0100 (mer. 17 nov. 2010) | 5 lignes
+
+        * Adding a new variable in each lexer token which represents if token
+          is just after a space or not.
+        * Changed : directory test is renamed to check in order to be Epita
+          style complient. Be worry not to use old directory.
+
+------------------------------------------------------------------------
+r86 | mazahe_m | 2010-11-16 19:28:23 +0100 (mar. 16 nov. 2010) | 2 lignes
+
+        * Changed lexer adding redirections tokens
+
+------------------------------------------------------------------------
+r85 | maarek_j | 2010-11-14 16:22:55 +0100 (dim. 14 nov. 2010) | 4 lignes
+
+	* Debug parse_and_or.
+	* Debug parse_else_clause.
+	* The parser is ok on 'if' and '&& ||'.
+
+------------------------------------------------------------------------
+r84 | maarek_j | 2010-11-14 13:46:19 +0100 (dim. 14 nov. 2010) | 3 lignes
+
+	* Add the option -W --without-warning to compile to ubuntu.
+	* Resolve error to linking.
+
+------------------------------------------------------------------------
+r83 | mazahe_m | 2010-11-14 13:20:33 +0100 (dim. 14 nov. 2010) | 2 lignes
+
+        * Changed : sys/wait.h is included
+
+------------------------------------------------------------------------
+r82 | mazahe_m | 2010-11-14 13:13:53 +0100 (dim. 14 nov. 2010) | 3 lignes
+
+        * Changed : include sys/types.h in order to compile with pid_t
+          on Fedora
+
+------------------------------------------------------------------------
+r81 | mazahe_m | 2010-11-14 03:49:41 +0100 (dim. 14 nov. 2010) | 2 lignes
+
+        * New and easy option parser
+
+------------------------------------------------------------------------
+r80 | mazahe_m | 2010-11-13 11:38:42 +0100 (sam. 13 nov. 2010) | 2 lignes
+
+        * Norm fix
+
+------------------------------------------------------------------------
+r79 | mazahe_m | 2010-11-13 11:24:36 +0100 (sam. 13 nov. 2010) | 2 lignes
+
+        * Changed : norm FIX
+
+------------------------------------------------------------------------
+r78 | mazahe_m | 2010-11-13 10:31:00 +0100 (sam. 13 nov. 2010) | 2 lignes
+
+        * Adding CASE and FOR rules
+
+------------------------------------------------------------------------
+r77 | lanoe_j | 2010-11-13 10:27:40 +0100 (sam. 13 nov. 2010) | 1 ligne
+
+        * Cleaning print debugs.
+------------------------------------------------------------------------
+r76 | mazahe_m | 2010-11-13 10:23:17 +0100 (sam. 13 nov. 2010) | 2 lignes
+
+        * Changed 42sh works on readline interactive mode
+
+------------------------------------------------------------------------
+r75 | mazahe_m | 2010-11-13 09:26:58 +0100 (sam. 13 nov. 2010) | 3 lignes
+
+        * Add execution is quite ok for existing functions
+        * Changed parser allows \n and without ; end of instruction (without segfault)
+
+------------------------------------------------------------------------
+r74 | lanoe_j | 2010-11-13 09:24:13 +0100 (sam. 13 nov. 2010) | 1 ligne
+
+        * Starting to handle an interactive mode.
+------------------------------------------------------------------------
+r73 | adolph_a | 2010-11-13 07:07:17 +0100 (sam. 13 nov. 2010) | 3 lignes
+
+Added functions which execute "case" "for" commands.
+
+
+------------------------------------------------------------------------
+r72 | lanoe_j | 2010-11-13 06:25:02 +0100 (sam. 13 nov. 2010) | 1 ligne
+
+        * Modified Makefile handling of the HTML check.
+------------------------------------------------------------------------
+r71 | lanoe_j | 2010-11-13 05:38:42 +0100 (sam. 13 nov. 2010) | 1 ligne
+
+        * Norm corrections.
+------------------------------------------------------------------------
+r70 | lanoe_j | 2010-11-13 04:06:32 +0100 (sam. 13 nov. 2010) | 1 ligne
+
+        * Case parsing functional - Debug in process.
+------------------------------------------------------------------------
+r69 | adolph_a | 2010-11-13 01:56:33 +0100 (sam. 13 nov. 2010) | 3 lignes
+
+Added functions which execute "if" "!" "||" "until" and "while"commands.
+
+
+------------------------------------------------------------------------
+r68 | mazahe_m | 2010-11-13 01:20:26 +0100 (sam. 13 nov. 2010) | 2 lignes
+
+        * Changed token ';;' is now type TK_OTHER
+
+------------------------------------------------------------------------
+r67 | mazahe_m | 2010-11-13 01:16:48 +0100 (sam. 13 nov. 2010) | 2 lignes
+
+        * Changed ';;' is only ONE token
+
+------------------------------------------------------------------------
+r66 | mazahe_m | 2010-11-12 22:48:07 +0100 (ven. 12 nov. 2010) | 3 lignes
+
+        * Changed AST printer, some bugs resolved
+        * Begin of execution
+
+------------------------------------------------------------------------
+r65 | adolph_a | 2010-11-12 16:28:58 +0100 (ven. 12 nov. 2010) | 2 lignes
+
+README Updated
+
+------------------------------------------------------------------------
+r64 | maarek_j | 2010-11-12 15:22:39 +0100 (ven. 12 nov. 2010) | 2 lignes
+
+	* Main of test for parser.
+
+------------------------------------------------------------------------
+r63 | maarek_j | 2010-11-12 15:18:29 +0100 (ven. 12 nov. 2010) | 2 lignes
+
+	* Debug parse_rule_for. not finished.
+
+------------------------------------------------------------------------
+r62 | karsen_j | 2010-11-12 14:26:16 +0100 (ven. 12 nov. 2010) | 2 lignes
+
+Add modification for test suite
+
+------------------------------------------------------------------------
+r61 | karsen_j | 2010-11-12 14:24:47 +0100 (ven. 12 nov. 2010) | 2 lignes
+
+Add function -a, -f, -c, -n at the moulinet
+
+------------------------------------------------------------------------
+r60 | maarek_j | 2010-11-12 13:51:49 +0100 (ven. 12 nov. 2010) | 2 lignes
+
+	* parse_compound_list *PATCHED*.
+
+------------------------------------------------------------------------
+r59 | maarek_j | 2010-11-12 12:37:39 +0100 (ven. 12 nov. 2010) | 4 lignes
+
+	* Debug parse_rule_if.
+	* Debug parse_else_clause.
+	* Add function is_keyword and is_end_keyword.
+
+------------------------------------------------------------------------
+r58 | mazahe_m | 2010-11-12 01:49:46 +0100 (ven. 12 nov. 2010) | 3 lignes
+
+    * Changed AST printer instruction if changed, when else case is empty not
+      any node is printed.
+
+------------------------------------------------------------------------
+r57 | mazahe_m | 2010-11-12 01:40:30 +0100 (ven. 12 nov. 2010) | 2 lignes
+
+    * Add AST printer end, compils not tested for some functions.
+
+------------------------------------------------------------------------
+r56 | maarek_j | 2010-11-12 00:14:11 +0100 (ven. 12 nov. 2010) | 2 lignes
+
+	* Begin debug PARSER.
+
+------------------------------------------------------------------------
+r55 | mazahe_m | 2010-11-11 22:48:32 +0100 (jeu. 11 nov. 2010) | 2 lignes
+
+    * Add AST printer rule for
+
+------------------------------------------------------------------------
+r54 | mazahe_m | 2010-11-11 22:46:45 +0100 (jeu. 11 nov. 2010) | 3 lignes
+
+    * Changed AST printer, some features
+    * Changed lexer debug shows the current token
+
+------------------------------------------------------------------------
+r53 | lanoe_j | 2010-11-11 21:38:36 +0100 (jeu. 11 nov. 2010) | 1 ligne
+
+        * Added function to parse the for statement.
+------------------------------------------------------------------------
+r52 | maarek_j | 2010-11-11 21:01:03 +0100 (jeu. 11 nov. 2010) | 5 lignes
+
+	* Add function skik_newline.
+	* Add function parse_funcdec.
+	* Add function parse_compound_list.
+	* Progress Parser.
+
+------------------------------------------------------------------------
+r51 | lanoe_j | 2010-11-11 20:49:18 +0100 (jeu. 11 nov. 2010) | 1 ligne
+
+        * Updated parsing functions prototypes.
+------------------------------------------------------------------------
+r50 | lanoe_j | 2010-11-11 20:40:26 +0100 (jeu. 11 nov. 2010) | 2 lignes
+
+        * Added 3 functions to parse the case statement.
+        * Need to be tested !
+------------------------------------------------------------------------
+r49 | mazahe_m | 2010-11-11 20:29:48 +0100 (jeu. 11 nov. 2010) | 4 lignes
+
+    * Resolved a stupid error which crashes compilation.
+    * Add AST printer rule while, until
+    * Changed AST printer if
+
+------------------------------------------------------------------------
+r48 | mazahe_m | 2010-11-11 19:50:43 +0100 (jeu. 11 nov. 2010) | 3 lignes
+
+    * Add AST printer instruction IF and PARENTHESIS
+    * Change AST printer instruction CMD (design)
+
+------------------------------------------------------------------------
+r47 | maarek_j | 2010-11-11 19:47:52 +0100 (jeu. 11 nov. 2010) | 4 lignes
+
+	* Correction Makefile.
+	* Correction of bug on add_instr_in_list.
+	* Progress Parser.
+
+------------------------------------------------------------------------
+r46 | mazahe_m | 2010-11-11 18:33:33 +0100 (jeu. 11 nov. 2010) | 3 lignes
+
+    * Add : AST printer using DOT language only for some instructions
+    * Add : new function in dynamic string library
+
+------------------------------------------------------------------------
+r45 | lanoe_j | 2010-11-11 18:21:07 +0100 (jeu. 11 nov. 2010) | 1 ligne
+
+        * Updated parser functions prototypes.
+------------------------------------------------------------------------
+r44 | lanoe_j | 2010-11-11 16:36:50 +0100 (jeu. 11 nov. 2010) | 2 lignes
+
+        * Resolved conflict.
+
+------------------------------------------------------------------------
+r43 | maarek_j | 2010-11-11 16:19:07 +0100 (jeu. 11 nov. 2010) | 5 lignes
+
+	* Type for s_instr_case modified.
+	* Add function add_item_in_list_items.
+	* Add type s_list_c_items.
+
+
+------------------------------------------------------------------------
+r42 | lanoe_j | 2010-11-11 16:04:57 +0100 (jeu. 11 nov. 2010) | 1 ligne
+
+        * Corrected a field structure write.
+------------------------------------------------------------------------
+r41 | lanoe_j | 2010-11-11 15:56:58 +0100 (jeu. 11 nov. 2010) | 1 ligne
+
+        * Updated the parser functions prototypes.
+------------------------------------------------------------------------
+r40 | lanoe_j | 2010-11-11 15:53:22 +0100 (jeu. 11 nov. 2010) | 1 ligne
+
+        * Added the parser of the case clause.
+------------------------------------------------------------------------
+r39 | lanoe_j | 2010-11-11 14:51:02 +0100 (jeu. 11 nov. 2010) | 2 lignes
+
+        * Added parser for the case rule.
+        * Updated the AST structures and the instruction case builder.
+------------------------------------------------------------------------
+r38 | lanoe_j | 2010-11-11 13:42:56 +0100 (jeu. 11 nov. 2010) | 1 ligne
+
+        * Updated the AST structures for the rule case.
+------------------------------------------------------------------------
+r37 | maarek_j | 2010-11-10 19:14:22 +0100 (mer. 10 nov. 2010) | 3 lignes
+
+	* Parser compil.
+
+
+------------------------------------------------------------------------
+r36 | mazahe_m | 2010-11-10 18:00:48 +0100 (mer. 10 nov. 2010) | 3 lignes
+
+        * Memory call error resolved in dynamic string library.
+        * Result : dynamic string and readline are without any leak or error.
+
+------------------------------------------------------------------------
+r35 | mazahe_m | 2010-11-10 17:53:18 +0100 (mer. 10 nov. 2010) | 5 lignes
+
+        * Adding an interactive readline
+        * Adding an dynamic string library (required by the readline)
+        * Adding a very easy builtin : clear
+        * Adding lexer_next_token function
+
+------------------------------------------------------------------------
+r34 | maarek_j | 2010-11-10 16:54:03 +0100 (mer. 10 nov. 2010) | 3 lignes
+
+	* Progress on parser.
+
+
+------------------------------------------------------------------------
+r33 | maarek_j | 2010-11-09 18:03:35 +0100 (mar. 09 nov. 2010) | 3 lignes
+
+	* The function build_* run like if parameter is NULL (return NULL)
+
+
+------------------------------------------------------------------------
+r32 | karsen_j | 2010-11-09 18:01:44 +0100 (mar. 09 nov. 2010) | 2 lignes
+
+Image for htlm page
+
+------------------------------------------------------------------------
+r31 | karsen_j | 2010-11-09 17:57:46 +0100 (mar. 09 nov. 2010) | 2 lignes
+
+Print in our 42sh and option html
+
+------------------------------------------------------------------------
+r30 | karsen_j | 2010-11-09 15:44:52 +0100 (mar. 09 nov. 2010) | 2 lignes
+
+New design for the moulinet and add image for category test
+
+------------------------------------------------------------------------
+r29 | mazahe_m | 2010-11-08 23:29:05 +0100 (lun. 08 nov. 2010) | 2 lignes
+
+* Lexer can match " (with escapes) and ' strings as one token.
+
+------------------------------------------------------------------------
+r28 | maarek_j | 2010-11-08 22:54:25 +0100 (lun. 08 nov. 2010) | 3 lignes
+
+	* Implementation of function parsing.
+
+
+------------------------------------------------------------------------
+r27 | mazahe_m | 2010-11-08 21:04:41 +0100 (lun. 08 nov. 2010) | 6 lignes
+
+Add lexer_get_token, lexer_eat_token, lexer_free
+Changed
+  Some lexer function in order to remove all memory leaks and errors.
+Status
+  No leaks, lexer works without matching complex structures "" $(( ))...
+
+------------------------------------------------------------------------
+r26 | maarek_j | 2010-11-08 20:06:33 +0100 (lun. 08 nov. 2010) | 3 lignes
+
+	* Add the type of functions parsing.
+
+
+------------------------------------------------------------------------
+r25 | karsen_j | 2010-11-08 18:44:51 +0100 (lun. 08 nov. 2010) | 3 lignes
+
+Update for print in a file html and in the teminal the result of the
+moulinet
+
+------------------------------------------------------------------------
+r24 | mazahe_m | 2010-11-08 14:26:33 +0100 (lun. 08 nov. 2010) | 5 lignes
+
+Lexer works with non quoted inputs. Exemple: "echo hello world" is still split in 3 tokens.
+Lexer leaks, no free function implemented.
+Adding lexer check
+Adding rule checkbuild which just build check files without launching check moulinette.
+
+------------------------------------------------------------------------
+r23 | maarek_j | 2010-11-07 22:10:02 +0100 (dim. 07 nov. 2010) | 4 lignes
+
+	Implemention functions build and free.
+	Not Tested.
+
+
+------------------------------------------------------------------------
+r22 | maarek_j | 2010-11-05 16:10:44 +0100 (ven. 05 nov. 2010) | 5 lignes
+
+Separation main.c of tests.
+Add prototype function build_* and free_* in file ast.h
+TODO: Implementing function build_* and free_*
+
+
+------------------------------------------------------------------------
+r21 | maarek_j | 2010-11-04 23:36:54 +0100 (jeu. 04 nov. 2010) | 5 lignes
+
+Declaration of type for ast.
+Not Comment.
+just prototype.
+
+
+------------------------------------------------------------------------
+r20 | lanoe_j | 2010-11-04 21:45:05 +0100 (jeu. 04 nov. 2010) | 2 lignes
+
+Starting the parser.
+
+------------------------------------------------------------------------
+r19 | karsen_j | 2010-11-04 19:25:58 +0100 (jeu. 04 nov. 2010) | 2 lignes
+
+Add effect for the moulinet and print the error
+
+------------------------------------------------------------------------
+r18 | maarek_j | 2010-11-04 14:14:16 +0100 (jeu. 04 nov. 2010) | 3 lignes
+
+Add css on Moulinette, with img for the categories.
+
+
+------------------------------------------------------------------------
+r17 | karsen_j | 2010-11-03 17:52:55 +0100 (mer. 03 nov. 2010) | 3 lignes
+
+add design for the html moulinette
+create link in Moulinnette.pl with design.css
+
+------------------------------------------------------------------------
+r16 | maarek_j | 2010-11-02 22:26:08 +0100 (mar. 02 nov. 2010) | 3 lignes
+
+Moulinette html begining.
+
+
+------------------------------------------------------------------------
+r15 | karsen_j | 2010-11-02 22:18:41 +0100 (mar. 02 nov. 2010) | 3 lignes
+
+Moulinette ++
+
+
+------------------------------------------------------------------------
+r14 | karsen_j | 2010-11-02 19:03:02 +0100 (mar. 02 nov. 2010) | 2 lignes
+
+Moulinette +
+
+------------------------------------------------------------------------
+r13 | maarek_j | 2010-11-02 00:55:07 +0100 (mar. 02 nov. 2010) | 4 lignes
+
+Adding test files for options_parser.
+fix CodingStyle in options_parser.
+
+
+------------------------------------------------------------------------
+r12 | mazahe_m | 2010-11-01 23:22:51 +0100 (lun. 01 nov. 2010) | 5 lignes
+
+Adding a first release for the command line lexer. This code is in good way,
+but it has to be finished.
+Note : planned for Tuesday, 2nd november.
+
+
+------------------------------------------------------------------------
+r11 | maarek_j | 2010-11-01 21:35:02 +0100 (lun. 01 nov. 2010) | 5 lignes
+
+Using CMake instead of Autotools.
+Add function options_parser, get_option, and free_list_options.
+This function is OK.
+
+
+------------------------------------------------------------------------
+r10 | maarek_j | 2010-11-01 21:33:31 +0100 (lun. 01 nov. 2010) | 3 lignes
+
+Using CMake instead of Autotools
+
+
+------------------------------------------------------------------------
+r9 | maarek_j | 2010-10-31 15:18:22 +0100 (dim. 31 oct. 2010) | 4 lignes
+
+Add ParserTst object, to parser a test file.
+Add example.tst, it's a example of test file.
+
+
+------------------------------------------------------------------------
+r8 | mazahe_m | 2010-10-29 15:33:29 +0200 (ven. 29 oct. 2010) | 3 lignes
+
+Fixing a name bug in the man.
+
+
+------------------------------------------------------------------------
+r7 | maarek_j | 2010-10-29 13:09:49 +0200 (ven. 29 oct. 2010) | 4 lignes
+
+README is OK
+TODO is OK
+
+
+------------------------------------------------------------------------
+r6 | karsen_j | 2010-10-29 11:51:01 +0200 (ven. 29 oct. 2010) | 2 lignes
+
+update
+
+------------------------------------------------------------------------
+r5 | karsen_j | 2010-10-29 11:48:43 +0200 (ven. 29 oct. 2010) | 2 lignes
+
+Initialisation, Tilte, Authors
+
+------------------------------------------------------------------------
+r4 | maarek_j | 2010-10-28 20:11:41 +0200 (jeu. 28 oct. 2010) | 5 lignes
+
+configure.ac : Short configure script.
+Makefile.am : Empty
+42sh.man : Detailed Description.
+
+
+------------------------------------------------------------------------
+r3 | karsen_j | 2010-10-28 19:57:43 +0200 (jeu. 28 oct. 2010) | 2 lignes
+
+Change description
+
+------------------------------------------------------------------------
+r2 | karsen_j | 2010-10-28 19:47:55 +0200 (jeu. 28 oct. 2010) | 2 lignes
+
+Description of the 42sh in the man effectued.
+
+------------------------------------------------------------------------
+r1 | maarek_j | 2010-10-28 18:46:05 +0200 (jeu. 28 oct. 2010) | 3 lignes
+
+Init svn.
+
+
+------------------------------------------------------------------------

@@ -1,0 +1,91 @@
+*******************************************************************************
+*********							      *********
+*********			    EPITA 2013			      *********
+*********							      *********
+*********           	           42sh project			      *********
+*********  	      	       	 	    	      		      *********
+*********     maarek_j - adolph_a - karsen_j - lanoe_j - mazahe_m     *********
+*********  	      	       	 	    	      		      *********
+*********      	      	       	       TODO			      *********
+*********  	      	       	 	    	      		      *********
+*******************************************************************************
+
+* Very important to do : an ast free function !		: +++
+  There are a lot of leaks !!
+* Check completely leaks				: +++
+* Printing of quoted strings ("" or '')			: ++? (check it more)
+* Lexer variable and arithmetic expansion matching	: +++
+* Builins						: ++?
+* For instruction parsing causes MEMORY ERRORS		: +++
+* Lexer : manage excape character \ without quoting	: +++
+* Readline : Ctrl + L dosen't replace by newline	:
+* Advanced prompt					: +++
+* PS2							:
+* Big error : parser stops matching after \n and nothig
+  is done after						: +++
+* Execute scopes {...}					: +++
+* Heredoc						:
+* Variable affectation with "", lexer hasn't to split	:
+* Check all code to be doxygened			: ++?
+
+	- Version 0.1					: +++
+	  - Report					: +++
+	  - Manual					: +++
+	- Version 0.5					: ++?
+	  - Options parser				: +++
+	  - Prompt  					: +++
+	  - Shell parser				: +++
+	    - lexer					: +++
+	    - type AST					: +++
+	    - parser					: +++
+	  - AST printer					: +++
+	  - Tests suite					: ++
+	    - Test program				: +++
+	      - Add option for html, by default
+		print the test on stdout		: ++
+	    - Tests format				: +++
+	    - Options format				:
+	    - Timeout management		(bonus)	:
+	  - Execution 					: ++
+	    - Operators					: +++
+	    - Pipes					: +++
+	    - Simple commands				: ++ (some redirection to do)
+	    - If commands				: +++
+	    - While, Until commands			: +++
+	    - For commands 				: +??
+	    - Functions					: ++?
+	    - Case commands			(bonus)	: + (to do for execution)
+	    - Autotools CMake			(bonus)	: +++
+	    - Resource files			(bonus)	:
+	    - History  				(bonus)	: +++
+	- Version 0.8					:
+	  - Tilde expansion				: +++
+	  - Builtin commands				:
+	    - Builtin exit				: ++ (leaks)
+	    - Builtin cd				: +++
+	    - Builtin shopt				:
+	    - Builtin export				: ++ (options -f and -n : not done)
+	    - Builtin alias				:
+	    - Builtin unalias				:
+	    - Builtin echo				: +++
+	    - Builtin continue				:
+	    - Builtin break				:
+	    - Builtin source				:
+	    - Builtin history			(bonus)	: +++
+	  - Advanced prompt				:
+	  - Variables					: ++?
+	  - Quoting					: ++?
+	  - Path expansion			(bonus)	:
+	  - Arithmetic expansion			: ++?
+	  - Readline   					: ++
+	  - Aliases					:
+	  - Path expansion, challenge mode	(bonus)	:
+	- Version 0.9			  		:
+	  - Completion				(bonus)	:
+	  - Command Substitution		(bonus)	:
+	  - Job Control				(bonus)	:
+	- Version 1.0					:
+	  - No leaks					: !!!
+	  - No segmentation faults			: ?
+	  - No file descriptor leaks			: ?
+	  - Completely doxigen(ed) code			: +

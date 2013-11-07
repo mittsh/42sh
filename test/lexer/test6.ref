@@ -1,0 +1,12 @@
+42sh LEXER DEBUGER
+  > Input : >>echo just        a check          to test           with spaces and        	tabs<<
+  >>Token		Other token		>>echo<<
+   -Token		Other token		>>just<< (after space)
+   -Token		Other token		>>a<< (after space)
+   -Token		Other token		>>check<< (after space)
+   -Token		Other token		>>to<< (after space)
+   -Token		Other token		>>test<< (after space)
+   -Token		Other token		>>with<< (after space)
+   -Token		Other token		>>spaces<< (after space)
+   -Token		Other token		>>and<< (after space)
+   -Token		Other token		>>tabs<< (after space)

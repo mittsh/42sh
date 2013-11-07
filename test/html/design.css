@@ -1,0 +1,212 @@
+/*
+design.css
+Design for the html page of the moulinet
+---------
+
+By Joseph K
+03/11/2010
+*/
+
+h1
+{
+    text-align: center;
+    color: white;
+    background-image:-moz-radial-gradient(#aedae5, #d8edf2);
+    position: relative;
+}
+
+.g_result
+{
+    -moz-border-radius:8px 8px 8px 8px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+    background-image:-moz-radial-gradient(#00FF7F, #98FB98);
+}
+
+.b_result
+{
+    -moz-border-radius:8px 8px 8px 8px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+    background-image:-moz-radial-gradient(#FF6347, #FA8072);
+}
+
+.header_group{
+    -moz-border-radius-topleft:8px;
+    -moz-border-radius-topright:8px;
+    -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color:#D5E1E8;
+    font-weight:bold;
+    padding:10px;
+    margin:10px 10px 0px 10px;
+    border-bottom-color:#84B0C7;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-left-color-ltr-source:physical;
+    border-left-color-rtl-source:physical;
+    border-left-color-value:#84B0C7;
+    border-left-style-ltr-source:physical;
+    border-left-style-rtl-source:physical;
+    border-left-style-value:solid;
+    border-left-width-ltr-source:physical;
+    border-left-width-rtl-source:physical;
+    border-left-width-value:1px;
+    border-right-color-ltr-source:physical;
+    border-right-color-rtl-source:physical;
+    border-right-color-value:#84B0C7;
+    border-right-style-ltr-source:physical;
+    border-right-style-rtl-source:physical;
+    border-right-style-value:solid;
+    border-right-width-ltr-source:physical;
+    border-right-width-rtl-source:physical;
+    border-right-width-value:1px;
+    border-top-color:#84B0C7;
+    border-top-style:solid;
+    border-top-width:1px;
+}
+
+.footer_group {
+    -moz-border-radius-bottomleft:8px;
+    -moz-border-radius-bottomright:8px;
+    -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.15);
+    padding:10px;
+    margin:0px 10px 10px 10px;
+    border-bottom-color:#84B0C7;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-left-color-ltr-source:physical;
+    border-left-color-rtl-source:physical;
+    border-left-color-value:#84B0C7;
+    border-left-style-ltr-source:physical;
+    border-left-style-rtl-source:physical;
+    border-left-style-value:solid;
+    border-left-width-ltr-source:physical;
+    border-left-width-rtl-source:physical;
+    border-left-width-value:1px;
+    border-right-color-ltr-source:physical;
+    border-right-color-rtl-source:physical;
+    border-right-color-value:#84B0C7;
+    border-right-style-ltr-source:physical;
+    border-right-style-rtl-source:physical;
+    border-right-style-value:solid;
+    border-right-width-ltr-source:physical;
+    border-right-width-rtl-source:physical;
+    border-right-width-value:1px;
+    border-top-color:#84B0C7;
+    border-top-style:solid;
+    border-top-width:1px;
+}
+
+.toc li {
+    -moz-background-clip:border;
+    -moz-background-origin:padding;
+    -moz-background-size:auto auto;
+    background-attachment:scroll;
+    background-color:transparent;
+    background-image:none;
+    background-position:0 0;
+    background-repeat:repeat;
+    margin-left:20px;
+}
+.toc ul {
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin-top:5px;
+    padding-bottom:0;
+    padding-left:10;
+    padding-right:0;
+    padding-top:0;
+}
+
+a:link, a:visited, a:active {
+    color:#2677C9;
+    text-decoration:none;
+}
+
+.icon_chap {
+    -moz-border-radius-bottomleft:10px;
+    -moz-border-radius-bottomright:10px;
+    -moz-border: 1px solid #999;der-radius-topleft:10px;
+    -moz-border-radius-topright:10px;
+    background-color:#F8FAFD;
+    border-bottom-color:#E3E7EC;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-left-color-ltr-source:physical;
+    border-left-color-rtl-source:physical;
+    border-left-color-value:#E3E7EC;
+    border-left-style-ltr-source:physical;
+    border-left-style-rtl-source:physical;
+    border-left-style-value:solid;
+    border-left-width-ltr-source:physical;
+    border-left-width-rtl-source:physical;
+    border-left-width-value:2px;
+    border-right-color-ltr-source:physical;
+    border-right-color-rtl-source:physical;
+    border-right-color-value:#E3E7EC;
+    border-right-style-ltr-source:physical;
+    border-right-style-rtl-source:physical;
+    border-right-style-value:solid;
+    border-right-width-ltr-source:physical;
+    border-right-width-rtl-source:physical;
+    border-right-width-value:2px;
+    border-top-color:#E3E7EC;
+    border-top-style:solid;
+    border-top-width:2px;
+    float:left;
+    margin-bottom:0;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:4px;
+    padding-bottom:6px;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:6px;
+    text-align:center;
+    width:22px;
+}
+
+a img {
+    border-bottom-color:-moz-use-text-color;
+    border-bottom-style:none;
+    border-bottom-width:0;
+    border-left-color-ltr-source:physical;
+    border-left-color-rtl-source:physical;
+    border-left-color-value:-moz-use-text-color;
+    border-left-style-ltr-source:physical;
+    border-left-style-rtl-source:physical;
+    border-left-style-value:none;
+    border-left-width-ltr-source:physical;
+    border-left-width-rtl-source:physical;
+    border-left-width-value:0;
+    border-right-color-ltr-source:physical;
+    border-right-color-rtl-source:physical;
+    border-right-color-value:-moz-use-text-color;
+    border-right-style-ltr-source:physical;
+    border-right-style-rtl-source:physical;
+    border-right-style-value:none;
+    border-right-width-ltr-source:physical;
+    border-right-width-rtl-source:physical;
+    border-right-width-value:0;
+    border-top-color:-moz-use-text-color;
+    border-top-style:none;
+    border-top-width:0;
+}
+
+.category img{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.b_t{
+    color: white;
+    font-family: Comic;
+    background-color:red;
+}
+

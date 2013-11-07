@@ -1,0 +1,8 @@
+42sh LEXER DEBUGER
+  > Input : >>echo toto; echo $((4 + 3 (5 + (3 + 8))));<<
+  >>Token		Other token		>>echo<<
+   -Token		Other token		>>toto<< (after space)
+   -Token		Token EOF ;		>>;<<
+   -Token		Other token		>>echo<< (after space)
+   -Token		Other token		>>$((4 + 3 (5 + (3 + 8))))<< (after space)
+   -Token		Token EOF ;		>>;<< (after space)

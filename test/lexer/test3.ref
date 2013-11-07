@@ -1,0 +1,14 @@
+42sh LEXER DEBUGER
+  > Input : >>echo "we are the \"best ones\" yeah"; echo "Share our \\\"SHELL\\\" yeah"; echo "Share\\" our \\" shell";<<
+  >>Token		Other token		>>echo<<
+   -Token		Other token		>>"we are the \"best ones\" yeah"<< (after space)
+   -Token		Token EOF ;		>>;<< (after space)
+   -Token		Other token		>>echo<< (after space)
+   -Token		Other token		>>"Share our \\\"SHELL\\\" yeah"<< (after space)
+   -Token		Token EOF ;		>>;<< (after space)
+   -Token		Other token		>>echo<< (after space)
+   -Token		Other token		>>"Share\\"<< (after space)
+   -Token		Other token		>>our<< (after space)
+   -Token		Other token		>>\<< (after space)
+   -Token		Other token		>>" shell"<<
+   -Token		Token EOF ;		>>;<< (after space)

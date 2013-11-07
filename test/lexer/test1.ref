@@ -1,0 +1,11 @@
+42sh LEXER DEBUGER
+  > Input : >>echo toto; echo tutu; echo "we are the best";<<
+  >>Token		Other token		>>echo<<
+   -Token		Other token		>>toto<< (after space)
+   -Token		Token EOF ;		>>;<<
+   -Token		Other token		>>echo<< (after space)
+   -Token		Other token		>>tutu<< (after space)
+   -Token		Token EOF ;		>>;<<
+   -Token		Other token		>>echo<< (after space)
+   -Token		Other token		>>"we are the best"<< (after space)
+   -Token		Token EOF ;		>>;<< (after space)

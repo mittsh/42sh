@@ -1,0 +1,79 @@
+#! /bin/sh
+
+#
+# Print help
+#
+print_help()
+{
+    cat <<EOF
+SYNOPSIS:
+	configure [-DXUh]
+
+OPTIONS
+	-D, --with-debug
+		Compile with flags debug:
+		-g -ggdb
+
+	-X, --with-extra-debug
+		Compile with extra debug,
+		Active the macro XDEBUG.
+
+	-W, --without-warning
+		Compile without warning errors,
+
+	-U, --with-duma
+		Compile with library duma
+
+	-P, --with-profile
+		Compile with library duma
+
+	-M, --for-xcode
+		Create a project for xcode
+
+	-h, --help
+		Print this help.
+
+EOF
+}
+
+#
+# CFLAGS defaults
+#
+CFLAGS='-Wall -W -Werror -pedantic -std=c99 -D_GNU_SOURCE'
+CMAKEFLAGS='-GUnix Makefiles'
+#
+# getopt
+#
+DEBUG=0
+TEMP=`getopt -o DWXUMPh --long without-warning,with-debug,with-extra-debug,for-xcode,with-duma,with-profile,help -- "$@"`
+eval set -- "$TEMP"
+while true ; do
+    case "$1" in
+	-D|--with-debug) DEBUG=1 ; shift ;;
+	-X|--with-extra-debug) CFLAGS="${CFLAGS} -DXDEBUG" ; shift ;;
+	-M|--for-xcode) CMAKEFLAGS='-GXcode'; shift ;;
+	-W|--without-warning) CFLAGS="-Wall -W -pedantic -std=c99 -g3 -D_GNU_SOURCE" ; shift ;;
+	-U|--with-duma) CFLAGS="${CFLAGS} -L/u/all/acu/public/lib -lduma" ;
+	    shift ;;
+        -P|--with-profile) CFLAGS="${CFLAGS} -pg"; shift ;;
+	-h|--help) print_help ; exit 0 ; shift ;;
+        --) shift ; break ;;
+	*) print_help ; exit 1 ;;
+    esac
+done
+
+if [ $DEBUG -eq 1 ] ; then
+    CFLAGS="${CFLAGS} -g -ggdb"
+else
+    CFLAGS="${CFLAGS} -DNDEBUG -O2"
+fi
+# --------------------------------------
+
+#
+# Creating the Makefile by CMake.
+#
+export CFLAGS="${CFLAGS}"
+echo $CFLAGS
+cd build
+cmake "${CMAKEFLAGS}" .
+cd ..

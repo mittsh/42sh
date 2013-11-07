@@ -1,0 +1,6 @@
+42sh LEXER DEBUGER
+  > Input : >>name=42sh; echo ;<<
+  >>Token		Other token		>>name=42sh<<
+   -Token		Token EOF ;		>>;<<
+   -Token		Other token		>>echo<< (after space)
+   -Token		Token EOF ;		>>;<< (after space)
