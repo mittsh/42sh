@@ -5,10 +5,11 @@
 
 ## No memory leaks. At all.
 
-The boldest instruction was: **"If you leak, you're dead, even one leak**. [Valgrind](http://valgrind.org/) was their  witness.
-We hacked night and day to make our shell work, from old-style dirty parsing (Bison, Flex, Lex, Yacc, even Regex libraries forbidden), to [AST](http://en.wikipedia.org/wiki/Abstract_syntax_tree) making and interpretation. Though, last weekend, we had 2 leaks left, in the very edge case where the user would quit badly the shell. And we weren't sure whether we missed some other cases, and would loose pride with even one nasty leak.
+The boldest instruction was: **"If you leak, you're dead, even for one leak"**. [Valgrind](http://valgrind.org/) was their  witness.
+We hacked night and day to make our shell work, from old-style dirty parsing (Bison, Flex, Lex, Yacc, even Regex libraries were forbidden), to [AST](http://en.wikipedia.org/wiki/Abstract_syntax_tree) building and interpreting. Though, the last weekend, we had 2 leaks left, in the very edge case where the user would quit badly the shell. And we weren't sure whether we missed some other cases, and would loose pride with even one nasty leak.
 
 So JC and I decided to write `mmalloc` (yes, `malloc` with 2 `m`, like *mittsh-malloc*). It also had `mfree`, `mcalloc` and `mrealloc`, and worked exactly as the original library functions. Except something. It kept a linked-list of pointers to all allocations. So when in need, we just had to call `mmalloc_free`, the magic function we documented as *Frees all the managed heap.*.
+We added some calls to `signal`, and catching all including `SIGTERM`, to free the heap even if we crash!
 
 In fact, the day of presentation, the jury asked us dubiously *So, is there any leak?*, [JC](http://github.com/jclanoe) answered very convinced *No leak*. The dude inisted *Are you - really - sure?*. We confirmed. After running their Valgrind-based test suite, the jury had to admit: *Nice, you're the first team today saying No Leak, and actually not having any.*. That was our humble way to beat the system.
 
