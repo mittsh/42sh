@@ -3,6 +3,10 @@
 42sh is a bash-style shell we developped at school in C. It was a 4 weeks project, with 5 team members, even though all were not as fervent we, [JC](http://github.com/jclanoe) and [I](http://github.com/mittsh), were.
 [EPITA](http://www.epita.fr/en/) is one of the leading Computer Science Engineering School in France, and make us learn low-level stuff (including some asm) to allow us understand deeply what's going on under the hood.
 
+## :warning: Think yourself, don't cheat!
+
+*Recently, an EPITA assistant contacted me requesting that I put this code offline. As I believe in an open world where information can flow freely, I denied his censorship request. Open Source code is a fabulous way to educate, and I learnt myself a lot reading the source code of frameworks and libraries. This project was a student project and therefore is far from being quality code. Though, take it as it is. Good or bad code is good to read, to learn what to do and what not to. When I was an EPITA student, I was asked to work on Java EE, SVN, and other bunch of completely outdated technologies, it was only thank to the openness of today's internet that I could, myself, learn today's technologies. So if you're a student working on a similar project, please use this carefully. Get inspiration, but don't copy/paste without thinking! And learn by yourself, on internet! Thanks!*
+
 ## No memory leaks. At all.
 
 The boldest instruction was: **"If you leak, you're dead, even for one leak"**. [Valgrind](http://valgrind.org/) was their  witness.
